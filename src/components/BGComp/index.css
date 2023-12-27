@@ -1,0 +1,14 @@
+.back-ground-img {
+  background-image: url(../../assets/puzzle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  cursor: none;
+}
+.flashlight{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 40px, rgba(0,0,0,0.98) 80px);
+}
