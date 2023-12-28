@@ -22,7 +22,11 @@ export default function BGComp() {
   return (
     <div className="back-ground-img">
       <div ref={refContainer} className="flashlight"></div>
-      <a href="https://www.linkedin.com/in/mykyta-kresik/" className="link"></a>
+      <a
+        href="https://www.linkedin.com/in/mykyta-kresik/"
+        className="link"
+        title="Click to visit my Linkedin!"
+      ></a>
     </div>
   );
 }
